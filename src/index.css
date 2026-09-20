@@ -1,0 +1,19 @@
+@import 'tailwindcss';
+
+/*
+ * Tailwind v4 wires `dark:` to `prefers-color-scheme` by default. The reader
+ * ships its own Light / Dark switch, so the variant is rebound to a class that
+ * can be toggled on any wrapper (the demo page and the component both use it).
+ */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  /* Makes native controls (scrollbars, range inputs) follow the chosen theme. */
+  .dark {
+    color-scheme: dark;
+  }
+}

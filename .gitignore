@@ -1,0 +1,9 @@
+node_modules
+dist
+dist-ssr
+*.local
+.DS_Store
+.vite
+npm-debug.log*
+yarn-error.log*
+SPEC.md
