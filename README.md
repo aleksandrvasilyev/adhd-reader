@@ -4,7 +4,7 @@ A dependency-free React + TypeScript component for **RSVP** (Rapid Serial Visual
 words appear one at a time in a fixed spot, so the eyes never travel and there is no line to lose.
 Built for readers with ADHD or focus difficulties.
 
-![ADHD Reader, light theme](docs/preview-light.png)
+![ADHD Reader, light theme](docs/preview-light.gif)
 
 ## Highlights
 
